@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="max-width=768, initial-scale=1">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<header class="main-header out">
+		<div class="logo">
+			<a href="index.html"><img src="img/logo.png" alt=""></a>
+		</div>
+		<nav>
+			<div class="hamburger">	
+				<i class="fa fa-bars"></i>
+			</div>
+			<ul class="main-nav main-nav-mob">
+				<li class="nav-item"><a href="#">Главная</a></li>
+				<li class="nav-item"><a href="#menuSection">Меню</a></li>
+				<li class="nav-item"><a href="#adress">Адрес</a></li>
+				<li class="nav-item"><a href="#contact">Контакты</a></li>
+			</ul>
+
+		</nav>
+	</header>
+	<div id="header" class="div">
+		<div class="text1">
+			<h1>The phylosophy of juicy food</h1>
+		</div>
+			<img src="img/bg1.jpeg" id="img_1"  style="position:absolute;"/>
+			<img src="img/bg2.jpeg" id="img_2"  style="position:absolute;opacity: 0;"/>
+			<img src="img/bg3.jpeg" id="img_3"  style="position:absolute;opacity: 0;"/>
+			<img src="img/bg4.jpeg" id="img_4"  style="position:absolute;opacity: 0;"/>
+			<img src="img/bg.jpg" id="img_5" style="position:absolute;opacity: 0;"/>	
+	</div>
+
+	<!-- Слайдер карусель -->
+		
+	<div class="slider" id="menuSection">
+		<h1>Меню</h1>
+	    <div class="slider-img" id="slider-img">
+	      <div class="slider-item">
+	        <img class="slider-item-img" src="img/WhatsApp Image 2018-12-22 at 5.44.46 PM.jpeg" alt="">
+	        <h4>Бургер "КЛАССИК" 950тг</h4>
+	      </div>
+	      <div class="slider-item">
+	        <img class="slider-item-img"  src="img/WhatsApp Image 2018-12-22 at 5.44.45 PM.jpeg" alt="">
+	        <h4>Хот-дог "UNCLE FRANK" 750тг</h4>
+	      </div>
+	      <div class="slider-item">
+	        <img class="slider-item-img"  src="img/doner.jpg" alt="">
+	        <h4>Донер 750тг</h4>
+	      </div>
+	      <div class="slider-item">
+	        <img class="slider-item-img"  src="img/ramen.jpg" alt="">
+	        <h4>Рамен 850тг</h4>
+	      </div>
+	      <div class="slider-item">
+	        <img class="slider-item-img"  src="img/WhatsApp Image 2018-12-22 at 6.18.02 PM (2).jpeg" alt="">
+	        <h4>Хот-дог "PASITO" 850тг</h4>
+	      </div>
+	      <div class="slider-item">
+	        <img class="slider-item-img"  src="img/WhatsApp Image 2018-12-22 at 6.18.20 PM (1).jpeg" alt="">
+	        <h4>Хот-дог "ZAPPELIN" 850тг</h4>
+	      </div>
+	      <div class="slider-item">
+	        <img class="slider-item-img"  src="img/WhatsApp Image 2018-12-22 at 5.44.50 PM.jpeg" alt="">
+	        <h4>Бургер "SO4NO" 1200тг<h4>
+	      </div> 
+	    </div>
+	    <div class="slider-arrows">
+	        <div class="slider-arrow__left" id="arrow-right"></div>
+			<div class="slider-arrow__right" id="arrow-left"></div>
+	    </div>
+	    <div class="slider-dots">
+	      <div class="dot active"></div>
+	      <div class="dot"></div>
+	      <div class="dot"></div>
+	    </div>
+	  </div>
+		
+
+		<!-- Секция меню -->
+
+
+		<section class="menues">
+		<div class="logoMenu">
+			<img src="img/soчno логотип43.png" alt="">
+		</div>
+		<h1 class="menuUpperText">Меню</h1>
+		<div class="menu-block">
+			<span class="menu-cat"><i class="fa fa-star glyphicon"></i><span class="text">Горячие блюда</span><i class="fa fa-star glyphicon"></i></span>
+		    <ul class="menu-list">
+		   		<li class="li-row">
+		   			<span class="dish">
+		   				<span class="name">Рамен</span>
+		   				<span class="ingredients">(Лапша, бульон, яйцо, капуста, говядина, курица, морковь, кукуруза)</span>
+		   			</span>
+		   			<span class="price">850тг</span>
+		   		</li>
+				<li class="li-row">
+		   			<span class="dish">
+		   				<span class="name">Бургер "SO4NO"</span>
+		   				<span class="ingredients">(Булка, котлета, кетчуп, горчица, лист салата, соленые огурцы, помидор, сыр)</span>
+		   			</span>
+		   			<span class="price">1200тг</span>
+		   		</li>
+		   		<li class="li-row">
+		   			<span class="dish">
+		   				<span class="name">Бургер "Классик"</span>
+		   				<span class="ingredients">(Булка, котлета, соус BBQ, соус маковый, лист салата, соленые огурцы, помидор, сыр)</span>
+		   			</span>
+		   			<span class="price">950тг</span>
+		   		</li>
+		   		<li class="li-row">
+		   			<span class="dish">
+		   				<span class="name">Бургер "Mushroom"</span>
+		   				<span class="ingredients">(Бургер, котлета, лист салата сыр, карамелизаванный лук, жаренные грибы, сырный соус)</span>
+		   			</span>
+		   			<span class="price">1150тг</span>
+		   		</li>
+		   		<li class="li-row">
+		   			<span class="dish">
+		   				<span class="name">Бургер "Pepper"</span>
+		   				<span class="ingredients">(Булка, котлета, сыр, лист салата, халапеньо, жаренный перец, кисло-сладкий соус)</span>
+		   			</span>
+		   			<span class="price">1050тг</span>
+		   		</li>
+		   		<li class="li-row">
+		   			<span class="dish">
+		   				<span class="name">Бургер "Double"</span>
+		   				<span class="ingredients">(Булка, двойная котлета, двойной сыр, лист салата, соленые огурцы, помидор, кетчуп, горчица)</span>
+		   			</span>
+		   			<span class="price">1450тг</span>
+		   		</li>
+		   		<li class="li-row">
+		   			<span class="dish">
+		   				<span class="name">Хот-Дог "Uncle Frank"</span>
+		   				<span class="ingredients">(Булка, сосиска, лук, помидор, огурцы, кетчуп, горчица)</span>
+		   			</span>
+		   			<span class="price">750тг</span>
+		   		</li>
+		   		<li class="li-row">
+		   			<span class="dish">
+		   				<span class="name">Хот-Дог "Zappelin"</span>
+		   				<span class="ingredients">(Булка, сосиска, фарш, фасоль, лук, сыр, кетчуп, горчица)</span>
+		   			</span>
+		   			<span class="price">950тг</span>
+		   			</li>
+		   			<li class="li-row">
+		   			<span class="dish">
+		   			<span class="name">Хот-Дог "Pasito"</span>
+		   				<span class="ingredients">(Булка, сосиска, халапеньо, сыр, чипсы, жареный перец, кетчуп, горчица)</span>
+		   			</span>
+		   			<span class="price">850тг</span>
+		   			</li>
+		   			<li class="li-row">
+		   			<span class="dish">
+		   			<span class="name">Doner</span>
+		   				<span class="ingredients">(Лаваш, курица, морковь, капуста, картофель фри, свежие огурцы, помидоры, майонез, кетчуп)</span>
+		   			</span>
+		   			<span class="price">750тг</span>
+		   			</li>
+		   			<li class="li-row">
+		   			<span class="dish">
+		   			<span class="name">Картофель Фри</span>
+		   				<span class="ingredients"></span>
+		   			</span>
+		   			<span class="price">300тг</span>
+		   			</li>
+		   		</li>
+		 	</ul>
+
+		 	<span class="menu-cat"><i class="fa fa-star glyphicon"></i><span class="text">Наполнение</span><i class="fa fa-star glyphicon"></i></span>
+		    <ul class="menu-list">
+		   		<li class="li-row">
+		   			<span class="dish">
+		   				<span class="name">Огурцы свежие</span>
+		   				<span class="ingredients"></span>
+		   			</span>
+		   			<span class="price">100тг</span>
+		   		</li>
+				<li class="li-row">
+		   			<span class="dish">
+		   				<span class="name">Огурцы соленые</span>
+		   				<span class="ingredients"></span>
+		   			</span>
+		   			<span class="price">150тг</span>
+		   		</li>
+		   		<li class="li-row">
+		   			<span class="dish">
+		   				<span class="name">Помидор</span>
+		   				<span class="ingredients"></span>
+		   			</span>
+		   			<span class="price">100тг</span>
+		   		</li>
+		   		<li class="li-row">
+		   			<span class="dish">
+		   				<span class="name">Лист салата</span>
+		   				<span class="ingredients"></span>
+		   			</span>
+		   			<span class="price">100тг</span>
+		   		</li>
+		   		<li class="li-row">
+		   			<span class="dish">
+		   				<span class="name">Халапеньо</span>
+		   				<span class="ingredients"></span>
+		   			</span>
+		   			<span class="price">150тг</span>
+		   		</li>
+		   		<li class="li-row">
+		   			<span class="dish">
+		   				<span class="name">Сыр</span>
+		   				<span class="ingredients"></span>
+		   			</span>
+		   			<span class="price">100тг</span>
+		   		</li>
+		 	</ul>
+
+
+		<span class="menu-cat"><i class="fa fa-star glyphicon"></i><span class="text">Соусы</span><i class="fa fa-star glyphicon"></i></span>
+		    <ul class="menu-list">
+		   		<li class="li-row">
+		   			<span class="dish">
+		   				<span class="name">Соус BBQ</span>
+		   				<span class="ingredients"></span>
+		   			</span>
+		   			<span class="price">100тг</span>
+		   		</li>
+				<li class="li-row">
+		   			<span class="dish">
+		   				<span class="name">Соус маковый</span>
+		   				<span class="ingredients"></span>
+		   			</span>
+		   			<span class="price">100тг</span>
+		   		</li>
+		   		<li class="li-row">
+		   			<span class="dish">
+		   				<span class="name">Кетчуп</span>
+		   				<span class="ingredients"></span>
+		   			</span>
+		   			<span class="price">100тг</span>
+		   		</li>
+		   		<li class="li-row">
+		   			<span class="dish">
+		   				<span class="name">Майонез</span>
+		   				<span class="ingredients"></span>
+		   			</span>
+		   			<span class="price">100тг</span>
+		   		</li>
+		   		<li class="li-row">
+		   			<span class="dish">
+		   				<span class="name">Сладкая горчица</span>
+		   				<span class="ingredients"></span>
+		   			</span>
+		   			<span class="price">100тг</span>
+		   		</li>
+		   		<li class="li-row">
+		   			<span class="dish">
+		   				<span class="name">Кисло-сладкий</span>
+		   				<span class="ingredients"></span>
+		   			</span>
+		   			<span class="price">100тг</span>
+		   		</li>
+		 	</ul>
+		 	<span class="menu-cat"><i class="fa fa-star glyphicon"></i><span class="text">Напитки</span><i class="fa fa-star glyphicon"></i></span>
+		    <ul class="menu-list">
+		   		<li class="li-row">
+		   			<span class="dish">
+		   				<span class="name">Coca cola 0.5</span>
+		   				<span class="ingredients"></span>
+		   			</span>
+		   			<span class="price">250тг</span>
+		   		</li>	
+		   		<li class="li-row">
+		   			<span class="dish">
+		   				<span class="name">Fuse 0.5</span>
+		   				<span class="ingredients"></span>
+		   			</span>
+		   			<span class="price">300тг</span>
+		   		</li>
+		   		<li class="li-row">
+		   			<span class="dish">
+		   				<span class="name">Вода 0.5</span>
+		   				<span class="ingredients"></span>
+		   			</span>
+		   			<span class="price">200тг</span>
+		   		</li>
+		 	</ul>
+		 
+
+
+		 	<span class="menu-cat"><i class="fa fa-star glyphicon"></i><span class="text">Горячие напитки</span><i class="fa fa-star glyphicon"></i></span>
+		    <ul class="menu-list">
+		   		<li class="li-row">
+		   			<span class="dish">
+		   				<span class="name">Эксперссо</span>
+		   				<span class="ingredients"></span>
+		   			</span>
+		   			<span class="price">450тг</span>
+		   		</li>
+				<li class="li-row">
+		   			<span class="dish">
+		   				<span class="name">Американо</span>
+		   				<span class="ingredients"></span>
+		   			</span>
+		   			<span class="price">450тг</span>
+		   		</li>
+		   		<li class="li-row">
+		   			<span class="dish">
+		   				<span class="name">Горячий шоколад</span>
+		   				<span class="ingredients"></span>
+		   			</span>
+		   			<span class="price">450тг</span>
+		   		</li>
+		   		<li class="li-row">
+		   			<span class="dish">
+		   				<span class="name">Латте макиато</span>
+		   				<span class="ingredients"></span>
+		   			</span>
+		   			<span class="price">550тг</span>
+		   		</li>
+		   		<li class="li-row">
+		   			<span class="dish">
+		   				<span class="name">Капучино</span>
+		   				<span class="ingredients"></span>
+		   			</span>
+		   			<span class="price">550тг</span>
+		   		</li>
+		   	</ul>
+
+		   		<span class="menu-cat"><i class="fa fa-star glyphicon"></i><span class="text">Соусы</span><i class="fa fa-star glyphicon"></i></span>
+		    <ul class="menu-list">
+		   		<li class="li-row">
+		   			<span class="dish">
+		   				<span class="name">Карри</span>
+		   				<span class="ingredients"></span>
+		   			</span>
+		   			<span class="price">100тг</span>
+		   		</li>	
+		   		<li class="li-row">
+		   			<span class="dish">
+		   				<span class="name">Сырный</span>
+		   				<span class="ingredients"></span>
+		   			</span>
+		   			<span class="price">100тг</span>
+		   		</li>
+		   		<li class="li-row">
+		   			<span class="dish">
+		   				<span class="name">Кисло-сладкий</span>
+		   				<span class="ingredients"></span>
+		   			</span>
+		   			<span class="price">100тг</span>
+		   		</li>
+		   		<li class="li-row">
+		   			<span class="dish">
+		   				<span class="name">Кетчуп</span>
+		   				<span class="ingredients"></span>
+		   			</span>
+		   			<span class="price">100тг</span>
+		   		</li>
+		 	</ul>
+		 
+		 	</ul>
+		</div>	
+	</section>
+	<!-- Секция адрес -->
+	<h1 class="location" id="adress">Наш Адрес</h1>
+	<div id="map" class="map">
+		
+		<div class="contacts-block d-flex j-c-c row-center">
+			<div>
+				<div class="contacts-block__address">
+				<span class="contacts-block__title">Адрес ресторана</span>
+				
+			<i class="fa fa-map-marker-alt"></i>г.Астана, ул.Бараева 13
+			</div>
+			<div class="contacts-block__phone">
+				
+				 <span class="contacts-block__title">Тел. ресторана</span>
+				<i class="fa fa-phone"></i> +7 (707) 515-55-88  
+				
+			</div>
+			
+			<div class="contacts-block__mail">
+				<span class="contacts-block__title">E-mail</span>
+				<i class="fa fa-envelope"></i> so4no@gmail.com
+			</div>
+			</div>
+		</div>
+		<div class="googleMaps">
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2502.3130372476994!2d71.4334646155225!3d51.15801804400946!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x42458133504893bf%3A0xaa1e96afe2c1c32f!2z0YPQuy4g0JDQu9C10LrRgdCw0L3QtNGA0LAg0JHQsNGA0LDQtdCy0LAgMTMsINCQ0YHRgtCw0L3QsCAwMTAwMDA!5e0!3m2!1sru!2skz!4v1545593709390" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
+		</div>
+	</div>
+	
+
+	
+	<footer>
+		<div class="footer" id="contact">
+		<!-- 	<div class="footerformedia"> -->
+			<div class="contactUs  d-flex f-d-col j-c-b">
+				<ul>
+					<li><h3>МЫ В СОЦИАЛЬНЫХ СЕТЯХ</h3></li>
+				</ul>
+				<ul>
+					<li>Instagram:</li>
+					<li><i class="fa fa-instagram"></i> <a href="https://www.instagram.com/so4no_astana/" class="sociala" target="_blank"><span class="socialspan"> so4no_astana</span></a></li>
+				</ul>
+				<ul>
+					<li>E-mail:</li>
+					<li><i class="fa fa-envelope"></i><a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&ved=2ahUKEwj-nqragsHfAhXntYsKHeOwDJkQFjAAegQIBBAC&url=https%3A%2F%2Fwww.google.com%2Fgmail%2F&usg=AOvVaw3mZ_qbD_gQyp_sqkjrwStn" class="sociala" target="_blank"><span class="socialspan"> so4no@gmail.com</span></a></li>
+				</ul>	
+				<ul>
+					<li>Whatsapp:</li>
+					<li><i class="fa fa-whatsapp"></i><a href="" class="sociala" target=""><span class="socialspan"> whatsapp/so4no/</span></a></li>
+				</ul>
+			</div>
+			
+			
+			<div class="openingTime">
+				
+					<ul><li><h3>ВРЕМЯ ОТКРЫТИЯ</h3></li></ul>
+					<ul class="d-flex f-d-col j-c-b"><li>Понедельник 09:30  – 23:00</li></ul>
+					<ul class="d-flex f-d-col j-c-b"><li>Вторник 09:30 – 23:00</li></ul>
+					<ul class="d-flex f-d-col j-c-b"><li>Среда 09:30  – 23:00</li></ul>
+					<ul class="d-flex f-d-col j-c-b"><li>Четверг 09:30  – 23:00</li></ul>
+					<ul class="d-flex f-d-col j-c-b"><li>Пятница 09:30  – 23:00</li></ul>
+					<ul class="d-flex f-d-col j-c-b"><li>Суббота 09:30  – 23:00</li></ul>
+					<ul class="d-flex f-d-col j-c-b"><li>Воскресения 09:30  – 23:00</li></ul>
+				
+			<!-- </div> -->
+			
+			</div>
+			<div class="footGallery">
+				<h3>ГАЛЛЕРЕЯ</h3>
+				<div class="footImgBlock">
+					<a class="item-gallery-footer wrap-pic-w" href="https://www.instagram.com/p/BqkQJRiFYRp/?utm_source=ig_web_button_share_sheet" data-lightbox="gallery-footer" target="_blank">
+						<img src="img/1.jpg" alt="">
+					</a>
+					<a class="item-gallery-footer wrap-pic-w" href="https://www.instagram.com/p/BrpyvJSF7vx/" data-lightbox="gallery-footer" target="_blank">
+						<img src="img/2.jpg" alt="">
+					</a>
+					<a class="item-gallery-footer wrap-pic-w" href="https://www.instagram.com/p/BpCoUfchYCz/" data-lightbox="gallery-footer" target="_blank">
+						<img src="img/3.jpg" alt="">
+					</a>
+
+						
+
+						
+				</div>
+				
+				<div class="footImgBlock">
+					<a class="item-gallery-footer wrap-pic-w" href="https://www.instagram.com/p/BrkcwuclF_G/" data-lightbox="gallery-footer" target="_blank">
+							<img src="img/5.jpg" alt="">
+					</a>
+					<a class="item-gallery-footer wrap-pic-w" href="https://www.instagram.com/p/BpANq1YhM8l/" data-lightbox="gallery-footer" target="_blank">
+							<img src="img/6.jpg" alt="">
+					</a>
+					
+					<a class="item-gallery-footer wrap-pic-w" href="https://www.instagram.com/p/BoO6bwEhIH8/" data-lightbox="gallery-footer" target="_blank">
+							<img src="img/7.jpg" alt="">
+					</a>
+					
+					
+
+				</div>
+				
+				<div class="footImgBlock">
+					<a class="item-gallery-footer wrap-pic-w" href="https://www.instagram.com/p/BpmioUqn49A/" data-lightbox="gallery-footer" target="_blank">
+							<img src="img/8.jpg" alt="">
+					</a>
+					
+					<a class="item-gallery-footer wrap-pic-w" href="https://www.instagram.com/p/BoUA8HvBZGQ/" data-lightbox="gallery-footer" target="_blank">
+							<img src="img/9.jpg" alt="">
+					</a>
+					
+					<a class="item-gallery-footer wrap-pic-w" href="https://www.instagram.com/p/BrnRhxuFTEM/" data-lightbox="gallery-footer" target="_blank">
+							<img src="img/4.jpg" alt="">
+					</a>
+					
+						
+				</div>
+				
+			</div>
+		</div>
+
+		<div class="copyright">@ 2018 So4no. The Phylosophy Of Juicy Food</div>
+	</footer>
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	
+		
+	<script src="js/script.js"></script>
+</body>
+</html>
